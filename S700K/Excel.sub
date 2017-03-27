@@ -1,0 +1,1986 @@
+FPAttributeValueFile
+
+n  TypeLibGUID="{00020813-0000-0000-C000-000000000046}" 
+
+n  TypeLibLCID="0" 
+
+n  HelpFile="VBAXL10.CHM" 
+
+n  TypeLibVersion="1.5" 
+
+n  SubType="COA" 
+
+n  SubVersion="1" 
+
+v enum_ExcelEnum_XlCreator DataType="i" 
+ ExcelConst_xlCreatorCode (1480803660)
+  ""
+
+
+v CABooleanValueSet DataType="i" 
+ VTRUE (-1)
+  ""
+
+ VFALSE (0)
+  ""
+
+
+v enum_ExcelEnum_XlCalculation DataType="i" 
+ ExcelConst_xlCalculationAutomatic (-4105)
+  ""
+
+ ExcelConst_xlCalculationManual (-4135)
+  ""
+
+ ExcelConst_xlCalculationSemiautomatic (2)
+  ""
+
+
+v enum_ExcelEnum_XlCommandUnderlines DataType="i" 
+ ExcelConst_xlCommandUnderlinesAutomatic (-4105)
+  ""
+
+ ExcelConst_xlCommandUnderlinesOff (-4146)
+  ""
+
+ ExcelConst_xlCommandUnderlinesOn (1)
+  ""
+
+
+v enum_ExcelEnum_XlCutCopyMode DataType="i" 
+ ExcelConst_xlCopy (1)
+  ""
+
+ ExcelConst_xlCut (2)
+  ""
+
+
+v enum_ExcelEnum_XlReferenceStyle DataType="i" 
+ ExcelConst_xlA1 (1)
+  ""
+
+ ExcelConst_xlR1C1 (-4150)
+  ""
+
+
+v enum_ExcelEnum_XlWindowState DataType="i" 
+ ExcelConst_xlMaximized (-4137)
+  ""
+
+ ExcelConst_xlMinimized (-4140)
+  ""
+
+ ExcelConst_xlNormal (-4143)
+  ""
+
+
+v enum_ExcelEnum_XlMailSystem DataType="i" 
+ ExcelConst_xlMAPI (1)
+  ""
+
+ ExcelConst_xlNoMailSystem (0)
+  ""
+
+ ExcelConst_xlPowerTalk (2)
+  ""
+
+
+v enum_ExcelEnum_XlEnableCancelKey DataType="i" 
+ ExcelConst_xlDisabled (0)
+  ""
+
+ ExcelConst_xlErrorHandler (2)
+  ""
+
+ ExcelConst_xlInterrupt (1)
+  ""
+
+
+v enum_ExcelEnum_XlDirection DataType="i" 
+ ExcelConst_xlDown (-4121)
+  ""
+
+ ExcelConst_xlToLeft (-4159)
+  ""
+
+ ExcelConst_xlToRight (-4161)
+  ""
+
+ ExcelConst_xlUp (-4162)
+  ""
+
+
+v enum_ExcelEnum_XlMousePointer DataType="i" 
+ ExcelConst_xlIBeam (3)
+  ""
+
+ ExcelConst_xlDefault (-4143)
+  ""
+
+ ExcelConst_xlNorthwestArrow (1)
+  ""
+
+ ExcelConst_xlWait (2)
+  ""
+
+
+v enum_ExcelEnum_XlCommentDisplayMode DataType="i" 
+ ExcelConst_xlNoIndicator (0)
+  ""
+
+ ExcelConst_xlCommentIndicatorOnly (-1)
+  ""
+
+ ExcelConst_xlCommentAndIndicator (1)
+  ""
+
+
+v enum_ExcelEnum_XlFileFormat DataType="i" 
+ ExcelConst_xlAddIn (18)
+  ""
+
+ ExcelConst_xlCSV (6)
+  ""
+
+ ExcelConst_xlCSVMac (22)
+  ""
+
+ ExcelConst_xlCSVMSDOS (24)
+  ""
+
+ ExcelConst_xlCSVWindows (23)
+  ""
+
+ ExcelConst_xlDBF2 (7)
+  ""
+
+ ExcelConst_xlDBF3 (8)
+  ""
+
+ ExcelConst_xlDBF4 (11)
+  ""
+
+ ExcelConst_xlDIF (9)
+  ""
+
+ ExcelConst_xlExcel2 (16)
+  ""
+
+ ExcelConst_xlExcel2FarEast (27)
+  ""
+
+ ExcelConst_xlExcel3 (29)
+  ""
+
+ ExcelConst_xlExcel4 (33)
+  ""
+
+ ExcelConst_xlExcel5 (39)
+  ""
+
+ ExcelConst_xlExcel7 (39)
+  ""
+
+ ExcelConst_xlExcel9795 (43)
+  ""
+
+ ExcelConst_xlExcel4Workbook (35)
+  ""
+
+ ExcelConst_xlIntlAddIn (26)
+  ""
+
+ ExcelConst_xlIntlMacro (25)
+  ""
+
+ ExcelConst_xlWorkbookNormal (-4143)
+  ""
+
+ ExcelConst_xlSYLK (2)
+  ""
+
+ ExcelConst_xlTemplate (17)
+  ""
+
+ ExcelConst_xlCurrentPlatformText (-4158)
+  ""
+
+ ExcelConst_xlTextMac (19)
+  ""
+
+ ExcelConst_xlTextMSDOS (21)
+  ""
+
+ ExcelConst_xlTextPrinter (36)
+  ""
+
+ ExcelConst_xlTextWindows (20)
+  ""
+
+ ExcelConst_xlWJ2WD1 (14)
+  ""
+
+ ExcelConst_xlWK1 (5)
+  ""
+
+ ExcelConst_xlWK1ALL (31)
+  ""
+
+ ExcelConst_xlWK1FMT (30)
+  ""
+
+ ExcelConst_xlWK3 (15)
+  ""
+
+ ExcelConst_xlWK4 (38)
+  ""
+
+ ExcelConst_xlWK3FM3 (32)
+  ""
+
+ ExcelConst_xlWKS (4)
+  ""
+
+ ExcelConst_xlWorks2FarEast (28)
+  ""
+
+ ExcelConst_xlWQ1 (34)
+  ""
+
+ ExcelConst_xlWJ3 (40)
+  ""
+
+ ExcelConst_xlWJ3FJ3 (41)
+  ""
+
+ ExcelConst_xlUnicodeText (42)
+  ""
+
+ ExcelConst_xlHtml (44)
+  ""
+
+ ExcelConst_xlWebArchive (45)
+  ""
+
+ ExcelConst_xlXMLSpreadsheet (46)
+  ""
+
+
+v enum_ExcelEnum_MsoFeatureInstall DataType="i" 
+ ExcelConst_msoFeatureInstallNone (0)
+  ""
+
+ ExcelConst_msoFeatureInstallOnDemand (1)
+  ""
+
+ ExcelConst_msoFeatureInstallOnDemandWithUI (2)
+  ""
+
+
+v enum_ExcelEnum_XlCalculationState DataType="i" 
+ ExcelConst_xlDone (0)
+  ""
+
+ ExcelConst_xlCalculating (1)
+  ""
+
+ ExcelConst_xlPending (2)
+  ""
+
+
+v enum_ExcelEnum_XlCalculationInterruptKey DataType="i" 
+ ExcelConst_xlNoKey (0)
+  ""
+
+ ExcelConst_xlEscKey (1)
+  ""
+
+ ExcelConst_xlAnyKey (2)
+  ""
+
+
+v enum_ExcelEnum_MsoAutomationSecurity DataType="i" 
+ ExcelConst_msoAutomationSecurityLow (1)
+  ""
+
+ ExcelConst_msoAutomationSecurityByUI (2)
+  ""
+
+ ExcelConst_msoAutomationSecurityForceDisable (3)
+  ""
+
+
+v enum_ExcelEnum_XlSheetType DataType="i" 
+ ExcelConst_xlChart (-4109)
+  ""
+
+ ExcelConst_xlDialogSheet (-4116)
+  ""
+
+ ExcelConst_xlExcel4IntlMacroSheet (4)
+  ""
+
+ ExcelConst_xlExcel4MacroSheet (3)
+  ""
+
+ ExcelConst_xlWorksheet (-4167)
+  ""
+
+
+v enum_ExcelEnum_XlSheetVisibility DataType="i" 
+ ExcelConst_xlSheetVisible (-1)
+  ""
+
+ ExcelConst_xlSheetHidden (0)
+  ""
+
+ ExcelConst_xlSheetVeryHidden (2)
+  ""
+
+
+v enum_ExcelEnum_XlConsolidationFunction DataType="i" 
+ ExcelConst_xlAverage (-4106)
+  ""
+
+ ExcelConst_xlCount (-4112)
+  ""
+
+ ExcelConst_xlCountNums (-4113)
+  ""
+
+ ExcelConst_xlMax (-4136)
+  ""
+
+ ExcelConst_xlMin (-4139)
+  ""
+
+ ExcelConst_xlProduct (-4149)
+  ""
+
+ ExcelConst_xlStDev (-4155)
+  ""
+
+ ExcelConst_xlStDevP (-4156)
+  ""
+
+ ExcelConst_xlSum (-4157)
+  ""
+
+ ExcelConst_xlVar (-4164)
+  ""
+
+ ExcelConst_xlVarP (-4165)
+  ""
+
+ ExcelConst_xlUnknown (1000)
+  ""
+
+
+v enum_ExcelEnum_XlEnableSelection DataType="i" 
+ ExcelConst_xlNoRestrictions (0)
+  ""
+
+ ExcelConst_xlUnlockedCells (1)
+  ""
+
+ ExcelConst_xlNoSelection (-4142)
+  ""
+
+
+v enum_ExcelEnum_XlDisplayDrawingObjects DataType="i" 
+ ExcelConst_xlDisplayShapes (-4104)
+  ""
+
+ ExcelConst_xlHide (3)
+  ""
+
+ ExcelConst_xlPlaceholders (2)
+  ""
+
+
+v enum_ExcelEnum_XlUpdateLinks DataType="i" 
+ ExcelConst_xlUpdateLinksUserSetting (1)
+  ""
+
+ ExcelConst_xlUpdateLinksNever (2)
+  ""
+
+ ExcelConst_xlUpdateLinksAlways (3)
+  ""
+
+
+v enum_ExcelEnum_XlSaveConflictResolution DataType="i" 
+ ExcelConst_xlLocalSessionChanges (2)
+  ""
+
+ ExcelConst_xlOtherSessionChanges (3)
+  ""
+
+ ExcelConst_xlUserResolution (1)
+  ""
+
+
+v enum_ExcelEnum_XlLocationInTable DataType="i" 
+ ExcelConst_xlColumnHeader (-4110)
+  ""
+
+ ExcelConst_xlColumnItem (5)
+  ""
+
+ ExcelConst_xlDataHeader (3)
+  ""
+
+ ExcelConst_xlDataItem (7)
+  ""
+
+ ExcelConst_xlPageHeader (2)
+  ""
+
+ ExcelConst_xlPageItem (6)
+  ""
+
+ ExcelConst_xlRowHeader (-4153)
+  ""
+
+ ExcelConst_xlRowItem (4)
+  ""
+
+ ExcelConst_xlTableBody (8)
+  ""
+
+
+v enum_ExcelEnum_XlFormulaLabel DataType="i" 
+ ExcelConst_xlNoLabels (-4142)
+  ""
+
+ ExcelConst_xlRowLabels (1)
+  ""
+
+ ExcelConst_xlColumnLabels (2)
+  ""
+
+ ExcelConst_xlMixedLabels (3)
+  ""
+
+
+0 Excel_Get_ApplicationProperty 3 5 false g
+0 Excel_Set_ApplicationProperty 3 5 false s
+0 Excel_Set_ApplicationPropertyByRef 3 5 false r
+
+1 all "_Default" Excel_App_Default  HelpContext="65536"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "UILanguage" Excel_AppUILanguage  HelpContext="65538"  CVIVartype="CAVT_LONG" long gs 
+ ""
+
+1 all "Value" Excel_AppValue  HelpContext="65542"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "Name" Excel_AppName  HelpContext="65646"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "Charts" Excel_AppCharts  HelpContext="65657"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "Width" Excel_AppWidth  HelpContext="65658"  CVIVartype="CAVT_DOUBLE" double gs 
+ ""
+
+1 all "Height" Excel_AppHeight  HelpContext="65659"  CVIVartype="CAVT_DOUBLE" double gs 
+ ""
+
+1 all "Top" Excel_AppTop  HelpContext="65662"  CVIVartype="CAVT_DOUBLE" double gs 
+ ""
+
+1 all "Left" Excel_AppLeft  HelpContext="65663"  CVIVartype="CAVT_DOUBLE" double gs 
+ ""
+
+1 all "Caption" Excel_AppCaption  HelpContext="65675"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "Selection" Excel_AppSelection  HelpContext="65683"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "Application" Excel_AppApplication  HelpContext="65684"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_App g 
+ ""
+
+1 all "Creator" Excel_AppCreator  HelpContext="65685"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlCreator" g enum_ExcelEnum_XlCreator 
+ ""
+
+1 all "Parent" Excel_AppParent  HelpContext="65686"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_App g 
+ ""
+
+1 all "ActiveChart" Excel_AppActiveChart  HelpContext="65719"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Chart g 
+ ""
+
+1 all "DefaultSheetDirection" Excel_AppDefaultSheetDirection  HelpContext="65765"  CVIVartype="CAVT_LONG" long gs 
+ ""
+
+1 all "CursorMovement" Excel_AppCursorMovement  HelpContext="65768"  CVIVartype="CAVT_LONG" long gs 
+ ""
+
+1 all "ControlCharacters" Excel_AppControlCharacters  HelpContext="65769"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "Cells" Excel_AppCells  HelpContext="65774"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "Columns" Excel_AppColumns  HelpContext="65777"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "Rows" Excel_AppRows  HelpContext="65794"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "Path" Excel_AppPath  HelpContext="65827"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "ActiveCell" Excel_AppActiveCell  HelpContext="65841"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "ActivePrinter" Excel_AppActivePrinter  HelpContext="65842"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "ActiveSheet" Excel_AppActiveSheet  HelpContext="65843"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "ActiveWorkbook" Excel_AppActiveWorkbook  HelpContext="65844"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Workbook g 
+ ""
+
+1 all "TransitionMenuKey" Excel_AppTransitionMenuKey  HelpContext="65846"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "TransitionMenuKeyAction" Excel_AppTransitionMenuKeyAction  HelpContext="65847"  CVIVartype="CAVT_LONG" long gs 
+ ""
+
+1 all "TransitionNavigKeys" Excel_AppTransitionNavigKeys  HelpContext="65848"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "AltStartupPath" Excel_AppAltStartupPath  HelpContext="65849"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "Build" Excel_AppBuild  HelpContext="65850"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "CalculateBeforeSave" Excel_AppCalculateBeforeSave  HelpContext="65851"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "Calculation" Excel_AppCalculation  HelpContext="65852"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlCalculation" gs enum_ExcelEnum_XlCalculation 
+ ""
+
+1 all "CanPlaySounds" Excel_AppCanPlaySounds  HelpContext="65854"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "CanRecordSounds" Excel_AppCanRecordSounds  HelpContext="65855"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "CellDragAndDrop" Excel_AppCellDragAndDrop  HelpContext="65856"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "DisplayClipboardWindow" Excel_AppDisplayClipboardWindow  HelpContext="65858"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "CommandUnderlines" Excel_AppCommandUnderlines  HelpContext="65859"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlCommandUnderlines" gs enum_ExcelEnum_XlCommandUnderlines 
+ ""
+
+1 all "ConstrainNumeric" Excel_AppConstrainNumeric  HelpContext="65860"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "CutCopyMode" Excel_AppCutCopyMode  HelpContext="65866"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlCutCopyMode" gs enum_ExcelEnum_XlCutCopyMode 
+ ""
+
+1 all "DataEntryMode" Excel_AppDataEntryMode  HelpContext="65867"  CVIVartype="CAVT_LONG" long gs 
+ ""
+
+1 all "DDEAppReturnCode" Excel_AppDDEAppReturnCode  HelpContext="65868"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "DisplayAlerts" Excel_AppDisplayAlerts  HelpContext="65879"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "DisplayFormulaBar" Excel_AppDisplayFormulaBar  HelpContext="65880"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "DisplayNoteIndicator" Excel_AppDisplayNoteIndicator  HelpContext="65881"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "DisplayScrollBars" Excel_AppDisplayScrollBars  HelpContext="65882"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "DisplayStatusBar" Excel_AppDisplayStatusBar  HelpContext="65883"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "FixedDecimal" Excel_AppFixedDecimal  HelpContext="65887"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "FixedDecimalPlaces" Excel_AppFixedDecimalPlaces  HelpContext="65888"  CVIVartype="CAVT_LONG" long gs 
+ ""
+
+1 all "IgnoreRemoteRequests" Excel_AppIgnoreRemoteRequests  HelpContext="65892"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "Interactive" Excel_AppInteractive  HelpContext="65897"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "Iteration" Excel_AppIteration  HelpContext="65899"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "LargeButtons" Excel_AppLargeButtons  HelpContext="65900"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "ColorButtons" Excel_AppColorButtons  HelpContext="65901"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "LibraryPath" Excel_AppLibraryPath  HelpContext="65902"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "MathCoprocessorAvailable" Excel_AppMathCoprocessorAvailable  HelpContext="65903"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "MaxChange" Excel_AppMaxChange  HelpContext="65904"  CVIVartype="CAVT_DOUBLE" double gs 
+ ""
+
+1 all "MaxIterations" Excel_AppMaxIterations  HelpContext="65905"  CVIVartype="CAVT_LONG" long gs 
+ ""
+
+1 all "MemoryFree" Excel_AppMemoryFree  HelpContext="65906"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "MemoryTotal" Excel_AppMemoryTotal  HelpContext="65907"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "MemoryUsed" Excel_AppMemoryUsed  HelpContext="65908"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "MouseAvailable" Excel_AppMouseAvailable  HelpContext="65909"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "MoveAfterReturn" Excel_AppMoveAfterReturn  HelpContext="65910"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "OperatingSystem" Excel_AppOperatingSystem  HelpContext="65911"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "OrganizationName" Excel_AppOrganizationName  HelpContext="65912"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "PathSeparator" Excel_AppPathSeparator  HelpContext="65913"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "RecordRelative" Excel_AppRecordRelative  HelpContext="65915"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "ReferenceStyle" Excel_AppReferenceStyle  HelpContext="65916"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlReferenceStyle" gs enum_ExcelEnum_XlReferenceStyle 
+ ""
+
+1 all "TemplatesPath" Excel_AppTemplatesPath  HelpContext="65917"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "ScreenUpdating" Excel_AppScreenUpdating  HelpContext="65918"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "StartupPath" Excel_AppStartupPath  HelpContext="65921"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "StatusBar" Excel_AppStatusBar  HelpContext="65922"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "ShowToolTips" Excel_AppShowToolTips  HelpContext="65923"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "NetworkTemplatesPath" Excel_AppNetworkTemplatesPath  HelpContext="65924"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "UsableHeight" Excel_AppUsableHeight  HelpContext="65925"  CVIVartype="CAVT_DOUBLE" double g 
+ ""
+
+1 all "UsableWidth" Excel_AppUsableWidth  HelpContext="65926"  CVIVartype="CAVT_DOUBLE" double g 
+ ""
+
+1 all "UserName" Excel_AppUserName  HelpContext="65927"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "Version" Excel_AppVersion  HelpContext="65928"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "WindowsForPens" Excel_AppWindowsForPens  HelpContext="65931"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "WindowState" Excel_AppWindowState  HelpContext="65932"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlWindowState" gs enum_ExcelEnum_XlWindowState 
+ ""
+
+1 all "Windows" Excel_AppWindows  HelpContext="65966"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Windows g 
+ ""
+
+1 all "Names" Excel_AppNames  HelpContext="65978"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Names g 
+ ""
+
+1 all "Sheets" Excel_AppSheets  HelpContext="66021"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "Worksheets" Excel_AppWorksheets  HelpContext="66030"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "AddIns" Excel_AppAddIns  HelpContext="66085"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_AddIns g 
+ ""
+
+1 all "Toolbars" Excel_AppToolbars  HelpContext="66088"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Toolbars g 
+ ""
+
+1 all "Visible" Excel_AppVisible  HelpContext="66094"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "Workbooks" Excel_AppWorkbooks  HelpContext="66108"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Workbooks g 
+ ""
+
+1 all "Excel4MacroSheets" Excel_AppExcel4MacroSheets  HelpContext="66115"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "Excel4IntlMacroSheets" Excel_AppExcel4IntlMacroSheets  HelpContext="66117"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "Modules" Excel_AppModules  HelpContext="66118"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Modules g 
+ ""
+
+1 all "MenuBars" Excel_AppMenuBars  HelpContext="66125"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_MenuBars g 
+ ""
+
+1 all "OnWindow" Excel_AppOnWindow  HelpContext="66159"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "OnCalculate" Excel_AppOnCalculate  HelpContext="66161"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "OnEntry" Excel_AppOnEntry  HelpContext="66163"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "OnDoubleClick" Excel_AppOnDoubleClick  HelpContext="66164"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "OnData" Excel_AppOnData  HelpContext="66165"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "ActiveMenuBar" Excel_AppActiveMenuBar  HelpContext="66294"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_MenuBar g 
+ ""
+
+1 all "ActiveWindow" Excel_AppActiveWindow  HelpContext="66295"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Window g 
+ ""
+
+1 all "Dialogs" Excel_AppDialogs  HelpContext="66297"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Dialogs g 
+ ""
+
+1 all "DialogSheets" Excel_AppDialogSheets  HelpContext="66300"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "ThisWorkbook" Excel_AppThisWorkbook  HelpContext="66314"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Workbook g 
+ ""
+
+1 all "CustomListCount" Excel_AppCustomListCount  HelpContext="66323"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "ActiveDialog" Excel_AppActiveDialog  HelpContext="66351"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_DialogSheet g 
+ ""
+
+1 all "StandardFont" Excel_AppStandardFont  HelpContext="66460"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "StandardFontSize" Excel_AppStandardFontSize  HelpContext="66461"  CVIVartype="CAVT_DOUBLE" double gs 
+ ""
+
+1 all "DisplayRecentFiles" Excel_AppDisplayRecentFiles  HelpContext="66462"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "DisplayExcel4Menus" Excel_AppDisplayExcel4Menus  HelpContext="66463"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "EditDirectlyInCell" Excel_AppEditDirectlyInCell  HelpContext="66465"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "AlertBeforeOverwriting" Excel_AppAlertBeforeOverwriting  HelpContext="66466"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "MailSession" Excel_AppMailSession  HelpContext="66478"  CVIVartype="CAVT_VARIANT" VARIANT g 
+ ""
+
+1 all "MailSystem" Excel_AppMailSystem  HelpContext="66507"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlMailSystem" g enum_ExcelEnum_XlMailSystem 
+ ""
+
+1 all "CopyObjectsWithCells" Excel_AppCopyObjectsWithCells  HelpContext="66527"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "AskToUpdateLinks" Excel_AppAskToUpdateLinks  HelpContext="66528"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "SheetsInNewWorkbook" Excel_AppSheetsInNewWorkbook  HelpContext="66529"  CVIVartype="CAVT_LONG" long gs 
+ ""
+
+1 all "OnSheetActivate" Excel_AppOnSheetActivate  HelpContext="66567"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "DefaultFilePath" Excel_AppDefaultFilePath  HelpContext="66574"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "DisplayFullScreen" Excel_AppDisplayFullScreen  HelpContext="66597"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "PromptForSummaryInfo" Excel_AppPromptForSummaryInfo  HelpContext="66598"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "EnableTipWizard" Excel_AppEnableTipWizard  HelpContext="66600"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "OnSheetDeactivate" Excel_AppOnSheetDeactivate  HelpContext="66617"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "EnableCancelKey" Excel_AppEnableCancelKey  HelpContext="66632"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlEnableCancelKey" gs enum_ExcelEnum_XlEnableCancelKey 
+ ""
+
+1 all "MoveAfterReturnDirection" Excel_AppMoveAfterReturnDirection  HelpContext="66680"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlDirection" gs enum_ExcelEnum_XlDirection 
+ ""
+
+1 all "AutoCorrect" Excel_AppAutoCorrect  HelpContext="66681"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_AutoCorrect g 
+ ""
+
+1 all "Cursor" Excel_AppCursor  HelpContext="66697"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlMousePointer" gs enum_ExcelEnum_XlMousePointer 
+ ""
+
+1 all "EnableAutoComplete" Excel_AppEnableAutoComplete  HelpContext="66715"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "EnableAnimations" Excel_AppEnableAnimations  HelpContext="66716"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "DisplayCommentIndicator" Excel_AppDisplayCommentIndicator  HelpContext="66732"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlCommentDisplayMode" gs enum_ExcelEnum_XlCommentDisplayMode 
+ ""
+
+1 all "EnableSound" Excel_AppEnableSound  HelpContext="66733"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "FileSearch" Excel_AppFileSearch  HelpContext="66736"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_FileSearch g 
+ ""
+
+1 all "FileFind" Excel_AppFileFind  HelpContext="66737"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_IFind g 
+ ""
+
+1 all "RecentFiles" Excel_AppRecentFiles  HelpContext="66738"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_RecentFiles g 
+ ""
+
+1 all "ODBCErrors" Excel_AppODBCErrors  HelpContext="66739"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_ODBCErrors g 
+ ""
+
+1 all "ODBCTimeout" Excel_AppODBCTimeout  HelpContext="66740"  CVIVartype="CAVT_LONG" long gs 
+ ""
+
+1 all "PivotTableSelection" Excel_AppPivotTableSelection  HelpContext="66741"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "RollZoom" Excel_AppRollZoom  HelpContext="66742"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "ShowChartTipNames" Excel_AppShowChartTipNames  HelpContext="66743"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "ShowChartTipValues" Excel_AppShowChartTipValues  HelpContext="66744"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "DefaultSaveFormat" Excel_AppDefaultSaveFormat  HelpContext="66745"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlFileFormat" gs enum_ExcelEnum_XlFileFormat 
+ ""
+
+1 all "UserControl" Excel_AppUserControl  HelpContext="66746"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "VBE" Excel_AppVBE  HelpContext="66747"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_VBE g 
+ ""
+
+1 all "EnableEvents" Excel_AppEnableEvents  HelpContext="66748"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "DisplayInfoWindow" Excel_AppDisplayInfoWindow  HelpContext="66749"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "Assistant" Excel_AppAssistant  HelpContext="66974"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Assistant g 
+ ""
+
+1 all "CommandBars" Excel_AppCommandBars  HelpContext="66975"  CVIVartype="CAVT_OBJHANDLE" ExcelObj__CommandBars g 
+ ""
+
+1 all "WorksheetFunction" Excel_AppWorksheetFunction  HelpContext="66976"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_WorksheetFunction g 
+ ""
+
+1 all "NewWorkbook" Excel_AppNewWorkbook  HelpContext="67101"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_NewFile g 
+ ""
+
+1 all "ExtendList" Excel_AppExtendList  HelpContext="67329"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "OLEDBErrors" Excel_AppOLEDBErrors  HelpContext="67330"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_OLEDBErrors g 
+ ""
+
+1 all "COMAddIns" Excel_AppCOMAddIns  HelpContext="67332"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_COMAddIns g 
+ ""
+
+1 all "DefaultWebOptions" Excel_AppDefaultWebOptions  HelpContext="67333"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_DefaultWebOptions g 
+ ""
+
+1 all "ProductCode" Excel_AppProductCode  HelpContext="67334"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "UserLibraryPath" Excel_AppUserLibraryPath  HelpContext="67335"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "AutoPercentEntry" Excel_AppAutoPercentEntry  HelpContext="67336"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "LanguageSettings" Excel_AppLanguageSettings  HelpContext="67337"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_LanguageSettings g 
+ ""
+
+1 all "Dummy101" Excel_AppDummy101  HelpContext="67338"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "AnswerWizard" Excel_AppAnswerWizard  HelpContext="67340"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_AnswerWizard g 
+ ""
+
+1 all "CalculationVersion" Excel_AppCalculationVersion  HelpContext="67342"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "ShowWindowsInTaskbar" Excel_AppShowWindowsInTaskbar  HelpContext="67343"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "FeatureInstall" Excel_AppFeatureInstall  HelpContext="67344"  CVIVartype="CAVT_LONG" "enum ExcelEnum_MsoFeatureInstall" gs enum_ExcelEnum_MsoFeatureInstall 
+ ""
+
+1 all "DecimalSeparator" Excel_AppDecimalSeparator  HelpContext="67345"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "ThousandsSeparator" Excel_AppThousandsSeparator  HelpContext="67346"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "Ready" Excel_AppReady  HelpContext="67468"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "FindFormat" Excel_AppFindFormat  HelpContext="67470"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_CellFormat gr 
+ ""
+
+1 all "ReplaceFormat" Excel_AppReplaceFormat  HelpContext="67471"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_CellFormat gr 
+ ""
+
+1 all "UsedObjects" Excel_AppUsedObjects  HelpContext="67472"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_UsedObjects g 
+ ""
+
+1 all "CalculationState" Excel_AppCalculationState  HelpContext="67473"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlCalculationState" g enum_ExcelEnum_XlCalculationState 
+ ""
+
+1 all "CalculationInterruptKey" Excel_AppCalculationInterruptKey  HelpContext="67474"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlCalculationInterruptKey" gs enum_ExcelEnum_XlCalculationInterruptKey 
+ ""
+
+1 all "Watches" Excel_AppWatches  HelpContext="67475"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Watches g 
+ ""
+
+1 all "DisplayFunctionToolTips" Excel_AppDisplayFunctionToolTips  HelpContext="67476"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "AutomationSecurity" Excel_AppAutomationSecurity  HelpContext="67477"  CVIVartype="CAVT_LONG" "enum ExcelEnum_MsoAutomationSecurity" gs enum_ExcelEnum_MsoAutomationSecurity 
+ ""
+
+1 all "DisplayPasteOptions" Excel_AppDisplayPasteOptions  HelpContext="67482"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "DisplayInsertOptions" Excel_AppDisplayInsertOptions  HelpContext="67483"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "GenerateGetPivotData" Excel_AppGenerateGetPivotData  HelpContext="67484"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "AutoRecover" Excel_AppAutoRecover  HelpContext="67485"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_AutoRecover g 
+ ""
+
+1 all "Hwnd" Excel_AppHwnd  HelpContext="67486"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "Hinstance" Excel_AppHinstance  HelpContext="67487"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "ErrorCheckingOptions" Excel_AppErrorCheckingOptions  HelpContext="67490"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_ErrorCheckingOptions g 
+ ""
+
+1 all "AutoFormatAsYouTypeReplaceHyperlinks" Excel_AppAutoFormatAsYouTypeReplaceHyperlinks  HelpContext="67491"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "SmartTagRecognizers" Excel_AppSmartTagRecognizers  HelpContext="67492"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_SmartTagRecognizers g 
+ ""
+
+1 all "SpellingOptions" Excel_AppSpellingOptions  HelpContext="67493"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_SpellingOptions g 
+ ""
+
+1 all "Speech" Excel_AppSpeech  HelpContext="67494"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Speech g 
+ ""
+
+1 all "MapPaperSize" Excel_AppMapPaperSize  HelpContext="67495"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "ShowStartupDialog" Excel_AppShowStartupDialog  HelpContext="67496"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "UseSystemSeparators" Excel_AppUseSystemSeparators  HelpContext="67497"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "ThisCell" Excel_AppThisCell  HelpContext="67498"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "RTD" Excel_AppRTD  HelpContext="67499"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_RTD g 
+ ""
+
+1 all "DisplayDocumentActionTaskPane" Excel_AppDisplayDocumentActionTaskPane  HelpContext="67787"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "ArbitraryXMLSupportAvailable" Excel_AppArbitraryXMLSupportAvailable  HelpContext="67790"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+0 Excel_Get_WorksheetProperty 3 5 false g
+0 Excel_Set_WorksheetProperty 3 5 false s
+
+1 all "_CodeName" Excel_Worksheet_CodeName  HelpContext="2147614720"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "Outline" Excel_WorksheetOutline  HelpContext="65638"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Outline g 
+ ""
+
+1 all "Type" Excel_WorksheetType  HelpContext="65644"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlSheetType" g enum_ExcelEnum_XlSheetType 
+ ""
+
+1 all "Name" Excel_WorksheetName  HelpContext="65646"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "Application" Excel_WorksheetApplication  HelpContext="65684"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_App g 
+ ""
+
+1 all "Creator" Excel_WorksheetCreator  HelpContext="65685"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlCreator" g enum_ExcelEnum_XlCreator 
+ ""
+
+1 all "Parent" Excel_WorksheetParent  HelpContext="65686"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "Protection" Excel_WorksheetProtection  HelpContext="65712"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Protection g 
+ ""
+
+1 all "Cells" Excel_WorksheetCells  HelpContext="65774"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "Columns" Excel_WorksheetColumns  HelpContext="65777"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "Rows" Excel_WorksheetRows  HelpContext="65794"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "ProtectContents" Excel_WorksheetProtectContents  HelpContext="65828"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "ProtectDrawingObjects" Excel_WorksheetProtectDrawingObjects  HelpContext="65829"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "ProtectScenarios" Excel_WorksheetProtectScenarios  HelpContext="65830"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "TransitionExpEval" Excel_WorksheetTransitionExpEval  HelpContext="65937"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "TransitionFormEntry" Excel_WorksheetTransitionFormEntry  HelpContext="65938"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "StandardHeight" Excel_WorksheetStandardHeight  HelpContext="65943"  CVIVartype="CAVT_DOUBLE" double g 
+ ""
+
+1 all "StandardWidth" Excel_WorksheetStandardWidth  HelpContext="65944"  CVIVartype="CAVT_DOUBLE" double gs 
+ ""
+
+1 all "UsedRange" Excel_WorksheetUsedRange  HelpContext="65948"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "Names" Excel_WorksheetNames  HelpContext="65978"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Names g 
+ ""
+
+1 all "Index" Excel_WorksheetIndex  HelpContext="66022"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "Next" Excel_WorksheetNext  HelpContext="66038"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "Previous" Excel_WorksheetPrevious  HelpContext="66039"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "Visible" Excel_WorksheetVisible  HelpContext="66094"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlSheetVisibility" gs enum_ExcelEnum_XlSheetVisibility 
+ ""
+
+1 all "Comments" Excel_WorksheetComments  HelpContext="66111"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Comments g 
+ ""
+
+1 all "OnCalculate" Excel_WorksheetOnCalculate  HelpContext="66161"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "OnEntry" Excel_WorksheetOnEntry  HelpContext="66163"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "OnDoubleClick" Excel_WorksheetOnDoubleClick  HelpContext="66164"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "OnData" Excel_WorksheetOnData  HelpContext="66165"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "DisplayAutomaticPageBreaks" Excel_WorksheetDisplayAutomaticPageBreaks  HelpContext="66179"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "_DisplayRightToLeft" Excel_Worksheet_DisplayRightToLeft  HelpContext="66184"  CVIVartype="CAVT_LONG" long gs 
+ ""
+
+1 all "ConsolidationFunction" Excel_WorksheetConsolidationFunction  HelpContext="66325"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlConsolidationFunction" g enum_ExcelEnum_XlConsolidationFunction 
+ ""
+
+1 all "ConsolidationOptions" Excel_WorksheetConsolidationOptions  HelpContext="66326"  CVIVartype="CAVT_VARIANT" VARIANT g 
+ ""
+
+1 all "ConsolidationSources" Excel_WorksheetConsolidationSources  HelpContext="66327"  CVIVartype="CAVT_VARIANT" VARIANT g 
+ ""
+
+1 all "AutoFilterMode" Excel_WorksheetAutoFilterMode  HelpContext="66328"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "AutoFilter" Excel_WorksheetAutoFilter  HelpContext="66329"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_AutoFilter g 
+ ""
+
+1 all "FilterMode" Excel_WorksheetFilterMode  HelpContext="66336"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "PageSetup" Excel_WorksheetPageSetup  HelpContext="66534"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_PageSetup g 
+ ""
+
+1 all "OnSheetActivate" Excel_WorksheetOnSheetActivate  HelpContext="66567"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "Tab" Excel_WorksheetTab  HelpContext="66577"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Tab g 
+ ""
+
+1 all "CircularReference" Excel_WorksheetCircularReference  HelpContext="66605"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "OnSheetDeactivate" Excel_WorksheetOnSheetDeactivate  HelpContext="66617"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "EnableAutoFilter" Excel_WorksheetEnableAutoFilter  HelpContext="66692"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "EnableOutlining" Excel_WorksheetEnableOutlining  HelpContext="66693"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "EnablePivotTable" Excel_WorksheetEnablePivotTable  HelpContext="66694"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "ProtectionMode" Excel_WorksheetProtectionMode  HelpContext="66695"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "CodeName" Excel_WorksheetCodeName  HelpContext="66909"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "Shapes" Excel_WorksheetShapes  HelpContext="66913"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Shapes g 
+ ""
+
+1 all "Hyperlinks" Excel_WorksheetHyperlinks  HelpContext="66929"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Hyperlinks g 
+ ""
+
+1 all "HPageBreaks" Excel_WorksheetHPageBreaks  HelpContext="66954"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_HPageBreaks g 
+ ""
+
+1 all "VPageBreaks" Excel_WorksheetVPageBreaks  HelpContext="66955"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_VPageBreaks g 
+ ""
+
+1 all "EnableCalculation" Excel_WorksheetEnableCalculation  HelpContext="66960"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "EnableSelection" Excel_WorksheetEnableSelection  HelpContext="66961"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlEnableSelection" gs enum_ExcelEnum_XlEnableSelection 
+ ""
+
+1 all "ScrollArea" Excel_WorksheetScrollArea  HelpContext="66969"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "QueryTables" Excel_WorksheetQueryTables  HelpContext="66970"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_QueryTables g 
+ ""
+
+1 all "DisplayPageBreaks" Excel_WorksheetDisplayPageBreaks  HelpContext="66971"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "DisplayRightToLeft" Excel_WorksheetDisplayRightToLeft  HelpContext="67310"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "Scripts" Excel_WorksheetScripts  HelpContext="67352"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Scripts g 
+ ""
+
+1 all "SmartTags" Excel_WorksheetSmartTags  HelpContext="67552"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_SmartTags g 
+ ""
+
+1 all "MailEnvelope" Excel_WorksheetMailEnvelope  HelpContext="67557"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_IMsoEnvelopeVB g 
+ ""
+
+1 all "CustomProperties" Excel_WorksheetCustomProperties  HelpContext="67566"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_CustomProperties g 
+ ""
+
+1 all "ListObjects" Excel_WorksheetListObjects  HelpContext="67795"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_ListObjects g 
+ ""
+
+0 Excel_Get_GlobalProperty 3 5 false g
+0 Excel_Set_GlobalProperty 3 5 false s
+
+1 all "Charts" Excel_GlobalCharts  HelpContext="65657"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "Selection" Excel_GlobalSelection  HelpContext="65683"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "Application" Excel_GlobalApplication  HelpContext="65684"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_App g 
+ ""
+
+1 all "Creator" Excel_GlobalCreator  HelpContext="65685"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlCreator" g enum_ExcelEnum_XlCreator 
+ ""
+
+1 all "Parent" Excel_GlobalParent  HelpContext="65686"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_App g 
+ ""
+
+1 all "ActiveChart" Excel_GlobalActiveChart  HelpContext="65719"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Chart g 
+ ""
+
+1 all "Cells" Excel_GlobalCells  HelpContext="65774"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "Columns" Excel_GlobalColumns  HelpContext="65777"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "Rows" Excel_GlobalRows  HelpContext="65794"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "ActiveCell" Excel_GlobalActiveCell  HelpContext="65841"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "ActivePrinter" Excel_GlobalActivePrinter  HelpContext="65842"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "ActiveSheet" Excel_GlobalActiveSheet  HelpContext="65843"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "ActiveWorkbook" Excel_GlobalActiveWorkbook  HelpContext="65844"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Workbook g 
+ ""
+
+1 all "DDEAppReturnCode" Excel_GlobalDDEAppReturnCode  HelpContext="65868"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "Windows" Excel_GlobalWindows  HelpContext="65966"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Windows g 
+ ""
+
+1 all "Names" Excel_GlobalNames  HelpContext="65978"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Names g 
+ ""
+
+1 all "Sheets" Excel_GlobalSheets  HelpContext="66021"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "Worksheets" Excel_GlobalWorksheets  HelpContext="66030"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "AddIns" Excel_GlobalAddIns  HelpContext="66085"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_AddIns g 
+ ""
+
+1 all "Toolbars" Excel_GlobalToolbars  HelpContext="66088"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Toolbars g 
+ ""
+
+1 all "Workbooks" Excel_GlobalWorkbooks  HelpContext="66108"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Workbooks g 
+ ""
+
+1 all "Excel4MacroSheets" Excel_GlobalExcel4MacroSheets  HelpContext="66115"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "Excel4IntlMacroSheets" Excel_GlobalExcel4IntlMacroSheets  HelpContext="66117"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "Modules" Excel_GlobalModules  HelpContext="66118"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Modules g 
+ ""
+
+1 all "MenuBars" Excel_GlobalMenuBars  HelpContext="66125"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_MenuBars g 
+ ""
+
+1 all "ActiveMenuBar" Excel_GlobalActiveMenuBar  HelpContext="66294"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_MenuBar g 
+ ""
+
+1 all "ActiveWindow" Excel_GlobalActiveWindow  HelpContext="66295"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Window g 
+ ""
+
+1 all "DialogSheets" Excel_GlobalDialogSheets  HelpContext="66300"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "ThisWorkbook" Excel_GlobalThisWorkbook  HelpContext="66314"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Workbook g 
+ ""
+
+1 all "ActiveDialog" Excel_GlobalActiveDialog  HelpContext="66351"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_DialogSheet g 
+ ""
+
+1 all "Assistant" Excel_GlobalAssistant  HelpContext="66974"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Assistant g 
+ ""
+
+1 all "CommandBars" Excel_GlobalCommandBars  HelpContext="66975"  CVIVartype="CAVT_OBJHANDLE" ExcelObj__CommandBars g 
+ ""
+
+1 all "WorksheetFunction" Excel_GlobalWorksheetFunction  HelpContext="66976"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_WorksheetFunction g 
+ ""
+
+0 Excel_Get_WorkbookProperty 3 5 false g
+0 Excel_Set_WorkbookProperty 3 5 false s
+
+1 all "_CodeName" Excel_Workbook_CodeName  HelpContext="2147614720"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "Name" Excel_WorkbookName  HelpContext="65646"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "Charts" Excel_WorkbookCharts  HelpContext="65657"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "Application" Excel_WorkbookApplication  HelpContext="65684"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_App g 
+ ""
+
+1 all "Creator" Excel_WorkbookCreator  HelpContext="65685"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlCreator" g enum_ExcelEnum_XlCreator 
+ ""
+
+1 all "Parent" Excel_WorkbookParent  HelpContext="65686"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "ActiveChart" Excel_WorkbookActiveChart  HelpContext="65719"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Chart g 
+ ""
+
+1 all "Title" Excel_WorkbookTitle  HelpContext="65735"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "CreateBackup" Excel_WorkbookCreateBackup  HelpContext="65823"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "FileFormat" Excel_WorkbookFileFormat  HelpContext="65824"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlFileFormat" g enum_ExcelEnum_XlFileFormat 
+ ""
+
+1 all "FullName" Excel_WorkbookFullName  HelpContext="65825"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "HasPassword" Excel_WorkbookHasPassword  HelpContext="65826"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "Path" Excel_WorkbookPath  HelpContext="65827"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "ProtectWindows" Excel_WorkbookProtectWindows  HelpContext="65831"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "ReadOnly" Excel_WorkbookReadOnly  HelpContext="65832"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "_ReadOnlyRecommended" Excel_Workbook_ReadOnlyRecommended  HelpContext="65833"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "Saved" Excel_WorkbookSaved  HelpContext="65834"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "WriteReserved" Excel_WorkbookWriteReserved  HelpContext="65835"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "WriteReservedBy" Excel_WorkbookWriteReservedBy  HelpContext="65836"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "ActiveSheet" Excel_WorkbookActiveSheet  HelpContext="65843"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "Date1904" Excel_WorkbookDate1904  HelpContext="65939"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "DisplayDrawingObjects" Excel_WorkbookDisplayDrawingObjects  HelpContext="65940"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlDisplayDrawingObjects" gs enum_ExcelEnum_XlDisplayDrawingObjects 
+ ""
+
+1 all "PrecisionAsDisplayed" Excel_WorkbookPrecisionAsDisplayed  HelpContext="65941"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "SaveLinkValues" Excel_WorkbookSaveLinkValues  HelpContext="65942"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "UpdateRemoteReferences" Excel_WorkbookUpdateRemoteReferences  HelpContext="65947"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "Password" Excel_WorkbookPassword  HelpContext="65965"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "Windows" Excel_WorkbookWindows  HelpContext="65966"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Windows g 
+ ""
+
+1 all "Names" Excel_WorkbookNames  HelpContext="65978"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Names g 
+ ""
+
+1 all "Sheets" Excel_WorkbookSheets  HelpContext="66021"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "Styles" Excel_WorkbookStyles  HelpContext="66029"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Styles g 
+ ""
+
+1 all "Worksheets" Excel_WorkbookWorksheets  HelpContext="66030"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "Author" Excel_WorkbookAuthor  HelpContext="66110"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "Comments" Excel_WorkbookComments  HelpContext="66111"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "Keywords" Excel_WorkbookKeywords  HelpContext="66113"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "Excel4MacroSheets" Excel_WorkbookExcel4MacroSheets  HelpContext="66115"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "Excel4IntlMacroSheets" Excel_WorkbookExcel4IntlMacroSheets  HelpContext="66117"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "Modules" Excel_WorkbookModules  HelpContext="66118"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "ProtectStructure" Excel_WorkbookProtectStructure  HelpContext="66124"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "DialogSheets" Excel_WorkbookDialogSheets  HelpContext="66300"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sheets g 
+ ""
+
+1 all "UpdateLinks" Excel_WorkbookUpdateLinks  HelpContext="66400"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlUpdateLinks" gs enum_ExcelEnum_XlUpdateLinks 
+ ""
+
+1 all "RoutingSlip" Excel_WorkbookRoutingSlip  HelpContext="66485"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_RoutingSlip g 
+ ""
+
+1 all "HasRoutingSlip" Excel_WorkbookHasRoutingSlip  HelpContext="66486"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "Routed" Excel_WorkbookRouted  HelpContext="66487"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "Subject" Excel_WorkbookSubject  HelpContext="66489"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "HasMailer" Excel_WorkbookHasMailer  HelpContext="66512"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "Mailer" Excel_WorkbookMailer  HelpContext="66515"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Mailer g 
+ ""
+
+1 all "OnSheetActivate" Excel_WorkbookOnSheetActivate  HelpContext="66567"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "OnSheetDeactivate" Excel_WorkbookOnSheetDeactivate  HelpContext="66617"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "WritePassword" Excel_WorkbookWritePassword  HelpContext="66664"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "MultiUserEditing" Excel_WorkbookMultiUserEditing  HelpContext="66705"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "ShowConflictHistory" Excel_WorkbookShowConflictHistory  HelpContext="66707"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "RevisionNumber" Excel_WorkbookRevisionNumber  HelpContext="66708"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "UserStatus" Excel_WorkbookUserStatus  HelpContext="66709"  CVIVartype="CAVT_VARIANT" VARIANT g 
+ ""
+
+1 all "ConflictResolution" Excel_WorkbookConflictResolution  HelpContext="66711"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlSaveConflictResolution" gs enum_ExcelEnum_XlSaveConflictResolution 
+ ""
+
+1 all "BuiltinDocumentProperties" Excel_WorkbookBuiltinDocumentProperties  HelpContext="66712"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "CustomDocumentProperties" Excel_WorkbookCustomDocumentProperties  HelpContext="66713"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "OnSave" Excel_WorkbookOnSave  HelpContext="66714"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "Container" Excel_WorkbookContainer  HelpContext="66726"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "UserControl" Excel_WorkbookUserControl  HelpContext="66746"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "CodeName" Excel_WorkbookCodeName  HelpContext="66909"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "CommandBars" Excel_WorkbookCommandBars  HelpContext="66975"  CVIVartype="CAVT_OBJHANDLE" ExcelObj__CommandBars g 
+ ""
+
+1 all "AcceptLabelsInFormulas" Excel_WorkbookAcceptLabelsInFormulas  HelpContext="66977"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "AutoUpdateFrequency" Excel_WorkbookAutoUpdateFrequency  HelpContext="66978"  CVIVartype="CAVT_LONG" long gs 
+ ""
+
+1 all "AutoUpdateSaveChanges" Excel_WorkbookAutoUpdateSaveChanges  HelpContext="66979"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "ChangeHistoryDuration" Excel_WorkbookChangeHistoryDuration  HelpContext="66980"  CVIVartype="CAVT_LONG" long gs 
+ ""
+
+1 all "IsAddin" Excel_WorkbookIsAddin  HelpContext="66981"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "PersonalViewListSettings" Excel_WorkbookPersonalViewListSettings  HelpContext="66983"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "PersonalViewPrintSettings" Excel_WorkbookPersonalViewPrintSettings  HelpContext="66984"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "CustomViews" Excel_WorkbookCustomViews  HelpContext="66992"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_CustomViews g 
+ ""
+
+1 all "TemplateRemoveExtData" Excel_WorkbookTemplateRemoveExtData  HelpContext="66993"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "HighlightChangesOnScreen" Excel_WorkbookHighlightChangesOnScreen  HelpContext="66997"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "KeepChangeHistory" Excel_WorkbookKeepChangeHistory  HelpContext="66998"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "ListChangesOnNewSheet" Excel_WorkbookListChangesOnNewSheet  HelpContext="66999"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "VBProject" Excel_WorkbookVBProject  HelpContext="67005"  CVIVartype="CAVT_OBJHANDLE" ExcelObj__VBProject g 
+ ""
+
+1 all "IsInplace" Excel_WorkbookIsInplace  HelpContext="67305"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "CalculationVersion" Excel_WorkbookCalculationVersion  HelpContext="67342"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "PublishObjects" Excel_WorkbookPublishObjects  HelpContext="67355"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_PublishObjects g 
+ ""
+
+1 all "WebOptions" Excel_WorkbookWebOptions  HelpContext="67356"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_WebOptions g 
+ ""
+
+1 all "HTMLProject" Excel_WorkbookHTMLProject  HelpContext="67359"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_HTMLProject g 
+ ""
+
+1 all "EnvelopeVisible" Excel_WorkbookEnvelopeVisible  HelpContext="67360"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "VBASigned" Excel_WorkbookVBASigned  HelpContext="67364"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "FullNameURLEncoded" Excel_WorkbookFullNameURLEncoded  HelpContext="67463"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "ReadOnlyRecommended" Excel_WorkbookReadOnlyRecommended  HelpContext="67541"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "ShowPivotTableFieldList" Excel_WorkbookShowPivotTableFieldList  HelpContext="67582"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "EnableAutoRecover" Excel_WorkbookEnableAutoRecover  HelpContext="67585"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "RemovePersonalInformation" Excel_WorkbookRemovePersonalInformation  HelpContext="67586"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "PasswordEncryptionProvider" Excel_WorkbookPasswordEncryptionProvider  HelpContext="67595"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "PasswordEncryptionAlgorithm" Excel_WorkbookPasswordEncryptionAlgorithm  HelpContext="67596"  CVIVartype="CAVT_CSTRING" "char *" g 
+ ""
+
+1 all "PasswordEncryptionKeyLength" Excel_WorkbookPasswordEncryptionKeyLength  HelpContext="67597"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "PasswordEncryptionFileProperties" Excel_WorkbookPasswordEncryptionFileProperties  HelpContext="67599"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "SmartTagOptions" Excel_WorkbookSmartTagOptions  HelpContext="67600"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_SmartTagOptions g 
+ ""
+
+1 all "Permission" Excel_WorkbookPermission  HelpContext="67800"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Permission g 
+ ""
+
+1 all "SharedWorkspace" Excel_WorkbookSharedWorkspace  HelpContext="67801"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_SharedWorkspace g 
+ ""
+
+1 all "Sync" Excel_WorkbookSync  HelpContext="67802"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Sync g 
+ ""
+
+1 all "XmlNamespaces" Excel_WorkbookXmlNamespaces  HelpContext="67804"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_XmlNamespaces g 
+ ""
+
+1 all "XmlMaps" Excel_WorkbookXmlMaps  HelpContext="67805"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_XmlMaps g 
+ ""
+
+1 all "SmartDocument" Excel_WorkbookSmartDocument  HelpContext="67809"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_SmartDocument g 
+ ""
+
+1 all "DocumentLibraryVersions" Excel_WorkbookDocumentLibraryVersions  HelpContext="67810"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_DocumentLibraryVersions g 
+ ""
+
+1 all "InactiveListBorderVisible" Excel_WorkbookInactiveListBorderVisible  HelpContext="67811"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+1 all "DisplayInkComments" Excel_WorkbookDisplayInkComments  HelpContext="67812"  CVIVartype="CAVT_BOOL" VBOOL gs CABooleanValueSet 
+ ""
+
+0 Excel_GetSheetsProperty 3 5 false g
+0 Excel_SetSheetsProperty 3 5 false s
+
+1 all "_NewEnum" Excel_Sheets_NewEnum  HelpContext="65532"  CVIVartype="CAVT_UNKNOWN" LPUNKNOWN g 
+ ""
+
+1 all "Count" Excel_SheetsCount  HelpContext="65654"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "Application" Excel_SheetsApplication  HelpContext="65684"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_App g 
+ ""
+
+1 all "Creator" Excel_SheetsCreator  HelpContext="65685"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlCreator" g enum_ExcelEnum_XlCreator 
+ ""
+
+1 all "Parent" Excel_SheetsParent  HelpContext="65686"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "Visible" Excel_SheetsVisible  HelpContext="66094"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "HPageBreaks" Excel_SheetsHPageBreaks  HelpContext="66954"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_HPageBreaks g 
+ ""
+
+1 all "VPageBreaks" Excel_SheetsVPageBreaks  HelpContext="66955"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_VPageBreaks g 
+ ""
+
+0 Excel_GetWorkbooksProperty 3 5 false g
+
+1 all "_NewEnum" Excel_Workbooks_NewEnum  HelpContext="65532"  CVIVartype="CAVT_UNKNOWN" LPUNKNOWN g 
+ ""
+
+1 all "Count" Excel_WorkbooksCount  HelpContext="65654"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "Application" Excel_WorkbooksApplication  HelpContext="65684"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_App g 
+ ""
+
+1 all "Creator" Excel_WorkbooksCreator  HelpContext="65685"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlCreator" g enum_ExcelEnum_XlCreator 
+ ""
+
+1 all "Parent" Excel_WorkbooksParent  HelpContext="65686"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+0 Excel_GetFontProperty 3 5 false g
+0 Excel_SetFontProperty 3 5 false s
+
+1 all "Bold" Excel_FontBold  HelpContext="65632"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "ColorIndex" Excel_FontColorIndex  HelpContext="65633"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Color" Excel_FontColor  HelpContext="65635"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Italic" Excel_FontItalic  HelpContext="65637"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Shadow" Excel_FontShadow  HelpContext="65639"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Size" Excel_FontSize  HelpContext="65640"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Strikethrough" Excel_FontStrikethrough  HelpContext="65641"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Underline" Excel_FontUnderline  HelpContext="65642"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Name" Excel_FontName  HelpContext="65646"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Application" Excel_FontApplication  HelpContext="65684"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_App g 
+ ""
+
+1 all "Creator" Excel_FontCreator  HelpContext="65685"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlCreator" g enum_ExcelEnum_XlCreator 
+ ""
+
+1 all "Parent" Excel_FontParent  HelpContext="65686"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "FontStyle" Excel_FontFontStyle  HelpContext="65713"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Superscript" Excel_FontSuperscript  HelpContext="65714"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Subscript" Excel_FontSubscript  HelpContext="65715"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Background" Excel_FontBackground  HelpContext="65716"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "OutlineFont" Excel_FontOutlineFont  HelpContext="65757"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+0 Excel_GetRangeProperty 3 5 false g
+0 Excel_SetRangeProperty 3 5 false s
+
+1 all "_NewEnum" Excel_Range_NewEnum  HelpContext="65532"  CVIVartype="CAVT_UNKNOWN" LPUNKNOWN g 
+ ""
+
+1 all "Name" Excel_RangeName  HelpContext="65646"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Count" Excel_RangeCount  HelpContext="65654"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "Width" Excel_RangeWidth  HelpContext="65658"  CVIVartype="CAVT_VARIANT" VARIANT g 
+ ""
+
+1 all "Height" Excel_RangeHeight  HelpContext="65659"  CVIVartype="CAVT_VARIANT" VARIANT g 
+ ""
+
+1 all "Top" Excel_RangeTop  HelpContext="65662"  CVIVartype="CAVT_VARIANT" VARIANT g 
+ ""
+
+1 all "Left" Excel_RangeLeft  HelpContext="65663"  CVIVartype="CAVT_VARIANT" VARIANT g 
+ ""
+
+1 all "Interior" Excel_RangeInterior  HelpContext="65665"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Interior g 
+ ""
+
+1 all "Orientation" Excel_RangeOrientation  HelpContext="65670"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "HorizontalAlignment" Excel_RangeHorizontalAlignment  HelpContext="65672"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "VerticalAlignment" Excel_RangeVerticalAlignment  HelpContext="65673"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Text" Excel_RangeText  HelpContext="65674"  CVIVartype="CAVT_VARIANT" VARIANT g 
+ ""
+
+1 all "Font" Excel_RangeFont  HelpContext="65682"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Font g 
+ ""
+
+1 all "Application" Excel_RangeApplication  HelpContext="65684"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_App g 
+ ""
+
+1 all "Creator" Excel_RangeCreator  HelpContext="65685"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlCreator" g enum_ExcelEnum_XlCreator 
+ ""
+
+1 all "Parent" Excel_RangeParent  HelpContext="65686"  CVIVartype="CAVT_OBJHANDLE" CAObjHandle g 
+ ""
+
+1 all "NumberFormat" Excel_RangeNumberFormat  HelpContext="65729"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "IndentLevel" Excel_RangeIndentLevel  HelpContext="65737"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "MergeCells" Excel_RangeMergeCells  HelpContext="65744"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "ShrinkToFit" Excel_RangeShrinkToFit  HelpContext="65745"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Cells" Excel_RangeCells  HelpContext="65774"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "Column" Excel_RangeColumn  HelpContext="65776"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "Columns" Excel_RangeColumns  HelpContext="65777"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "ColumnWidth" Excel_RangeColumnWidth  HelpContext="65778"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "CurrentRegion" Excel_RangeCurrentRegion  HelpContext="65779"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "EntireColumn" Excel_RangeEntireColumn  HelpContext="65782"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "EntireRow" Excel_RangeEntireRow  HelpContext="65783"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "PageBreak" Excel_RangePageBreak  HelpContext="65791"  CVIVartype="CAVT_LONG" long gs 
+ ""
+
+1 all "Row" Excel_RangeRow  HelpContext="65793"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "Rows" Excel_RangeRows  HelpContext="65794"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "Style" Excel_RangeStyle  HelpContext="65796"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Formula" Excel_RangeFormula  HelpContext="65797"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "FormulaHidden" Excel_RangeFormulaHidden  HelpContext="65798"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "FormulaLocal" Excel_RangeFormulaLocal  HelpContext="65799"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "FormulaR1C1" Excel_RangeFormulaR1C1  HelpContext="65800"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "FormulaR1C1Local" Excel_RangeFormulaR1C1Local  HelpContext="65801"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "HasArray" Excel_RangeHasArray  HelpContext="65802"  CVIVartype="CAVT_VARIANT" VARIANT g 
+ ""
+
+1 all "HasFormula" Excel_RangeHasFormula  HelpContext="65803"  CVIVartype="CAVT_VARIANT" VARIANT g 
+ ""
+
+1 all "Hidden" Excel_RangeHidden  HelpContext="65804"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Locked" Excel_RangeLocked  HelpContext="65805"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "OutlineLevel" Excel_RangeOutlineLevel  HelpContext="65807"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "RowHeight" Excel_RangeRowHeight  HelpContext="65808"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Summary" Excel_RangeSummary  HelpContext="65809"  CVIVartype="CAVT_VARIANT" VARIANT g 
+ ""
+
+1 all "UseStandardHeight" Excel_RangeUseStandardHeight  HelpContext="65810"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "UseStandardWidth" Excel_RangeUseStandardWidth  HelpContext="65811"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "WrapText" Excel_RangeWrapText  HelpContext="65812"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Worksheet" Excel_RangeWorksheet  HelpContext="65884"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Worksheet g 
+ ""
+
+1 all "Borders" Excel_RangeBorders  HelpContext="65971"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Borders g 
+ ""
+
+1 all "CurrentArray" Excel_RangeCurrentArray  HelpContext="66037"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "Next" Excel_RangeNext  HelpContext="66038"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "Previous" Excel_RangePrevious  HelpContext="66039"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "PrefixCharacter" Excel_RangePrefixCharacter  HelpContext="66040"  CVIVartype="CAVT_VARIANT" VARIANT g 
+ ""
+
+1 all "Dependents" Excel_RangeDependents  HelpContext="66079"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "Precedents" Excel_RangePrecedents  HelpContext="66080"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "DirectDependents" Excel_RangeDirectDependents  HelpContext="66081"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "DirectPrecedents" Excel_RangeDirectPrecedents  HelpContext="66082"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "Areas" Excel_RangeAreas  HelpContext="66104"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Areas g 
+ ""
+
+1 all "ShowDetail" Excel_RangeShowDetail  HelpContext="66121"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "FormulaArray" Excel_RangeFormulaArray  HelpContext="66122"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "LocationInTable" Excel_RangeLocationInTable  HelpContext="66227"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlLocationInTable" g enum_ExcelEnum_XlLocationInTable 
+ ""
+
+1 all "PivotTable" Excel_RangePivotTable  HelpContext="66252"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_PivotTable g 
+ ""
+
+1 all "PivotField" Excel_RangePivotField  HelpContext="66267"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_PivotField g 
+ ""
+
+1 all "PivotItem" Excel_RangePivotItem  HelpContext="66276"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_PivotItem g 
+ ""
+
+1 all "Comment" Excel_RangeComment  HelpContext="66446"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Comment g 
+ ""
+
+1 all "SoundNote" Excel_RangeSoundNote  HelpContext="66452"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_SoundNote g 
+ ""
+
+1 all "ReadingOrder" Excel_RangeReadingOrder  HelpContext="66511"  CVIVartype="CAVT_LONG" long gs 
+ ""
+
+1 all "AddIndent" Excel_RangeAddIndent  HelpContext="66599"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "NumberFormatLocal" Excel_RangeNumberFormatLocal  HelpContext="66633"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "ListHeaderRows" Excel_RangeListHeaderRows  HelpContext="66723"  CVIVartype="CAVT_LONG" long g 
+ ""
+
+1 all "FormulaLabel" Excel_RangeFormulaLabel  HelpContext="66916"  CVIVartype="CAVT_LONG" "enum ExcelEnum_XlFormulaLabel" gs enum_ExcelEnum_XlFormulaLabel 
+ ""
+
+1 all "MergeArea" Excel_RangeMergeArea  HelpContext="66921"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Range g 
+ ""
+
+1 all "QueryTable" Excel_RangeQueryTable  HelpContext="66922"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_QueryTable g 
+ ""
+
+1 all "Validation" Excel_RangeValidation  HelpContext="66923"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Validation g 
+ ""
+
+1 all "Value2" Excel_RangeValue2  HelpContext="66924"  CVIVartype="CAVT_VARIANT" VARIANT gs 
+ ""
+
+1 all "Phonetic" Excel_RangePhonetic  HelpContext="66927"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Phonetic g 
+ ""
+
+1 all "FormatConditions" Excel_RangeFormatConditions  HelpContext="66928"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_FormatConditions g 
+ ""
+
+1 all "Hyperlinks" Excel_RangeHyperlinks  HelpContext="66929"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Hyperlinks g 
+ ""
+
+1 all "Phonetics" Excel_RangePhonetics  HelpContext="67347"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Phonetics g 
+ ""
+
+1 all "ID" Excel_RangeID  HelpContext="67349"  CVIVartype="CAVT_CSTRING" "char *" gs 
+ ""
+
+1 all "PivotCell" Excel_RangePivotCell  HelpContext="67549"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_PivotCell g 
+ ""
+
+1 all "Errors" Excel_RangeErrors  HelpContext="67551"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_Errors g 
+ ""
+
+1 all "SmartTags" Excel_RangeSmartTags  HelpContext="67552"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_SmartTags g 
+ ""
+
+1 all "AllowEdit" Excel_RangeAllowEdit  HelpContext="67556"  CVIVartype="CAVT_BOOL" VBOOL g CABooleanValueSet 
+ ""
+
+1 all "ListObject" Excel_RangeListObject  HelpContext="67793"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_ListObject g 
+ ""
+
+1 all "XPath" Excel_RangeXPath  HelpContext="67794"  CVIVartype="CAVT_OBJHANDLE" ExcelObj_XPath g 
+ ""
+
